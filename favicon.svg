@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AffirmIt icon</title>
+  <desc id="desc">A speech bubble with a glowing star on a violet background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="48" x2="448" y2="464" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#065f46"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="140" y1="132" x2="356" y2="336" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#ddd6fe" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="star" x1="242" y1="173" x2="284" y2="268" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <circle cx="398" cy="118" r="46" fill="#8b5cf6" fill-opacity="0.22"/>
+  <circle cx="122" cy="396" r="70" fill="#34d399" fill-opacity="0.18"/>
+  <path d="M150 151c0-25.405 20.595-46 46-46h120c25.405 0 46 20.595 46 46v96c0 25.405-20.595 46-46 46h-66l-56 54v-54h-44c-25.405 0-46-20.595-46-46V151z" fill="url(#bubble)"/>
+  <path d="M256 174l13.973 33.027L303 221l-33.027 13.973L256 268l-13.973-33.027L209 221l33.027-13.973L256 174z" fill="url(#star)"/>
+  <circle cx="210" cy="183" r="12" fill="#ffffff" fill-opacity="0.32"/>
+  <path d="M180 364c33.1 18.667 77.1 28 132 28 28.955 0 56.955-2.334 84-7" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-linecap="round" stroke-width="16"/>
+</svg>
